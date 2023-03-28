@@ -12,14 +12,14 @@ int main(void)
 {
 	fnd_init();
 	
-    while (1) 
-    {
+	while (1) 
+	{
 		for (int i=0 ; i<10 ; i++)
 		{
 			fnd_disp(i);
 			_delay_ms(1000);
 		}
-    }
+	}
 }
 
 void fnd_init(void)
