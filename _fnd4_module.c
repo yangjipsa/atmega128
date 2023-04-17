@@ -29,12 +29,12 @@ int main(void)
 	
 	//main code
 	while (1) 
-    {
+	{
 		for(i=0; i<4; i++) // 배열 col에 저장된 숫자를 각 자리에 맞춰 출력
 		{
 			PORTC = (1<<i);
 			PORTA = ~fnd[col[i]]; // fnd배열을 반전해서 출력
 			_delay_ms(5);
 		}
-    }
+	}
 }
